@@ -34,33 +34,19 @@ This repo is organized into the following learning modules:
 
 ---
 
-## 🧠 Use Case 1: Model Training - PyTorch + DeepSpeed
+# AI Terminologies with Analogies
 
-### 🔍 Objective
-Train large language models (LLMs) using RHEL-based infrastructure with PyTorch and DeepSpeed.
+| **Term**                     | **Definition**                                                                                     | **Analogy**                                                                                              |
+|-----------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| **Artificial Intelligence (AI)** | The simulation of human intelligence in machines that are programmed to think and learn.            | Like teaching a robot to act like a human — it can think, plan, and make decisions like a smart pet.     |
+| **Machine Learning (ML)**       | A subset of AI that enables machines to learn from data and improve over time without being explicitly programmed. | Like training a child to recognize animals by showing pictures — the more examples, the better they get. |
+| **Deep Learning**              | A subset of ML that uses neural networks with many layers to analyze complex data patterns.        | Like layers of filters in photo editing — each layer refines and adds detail to the final image.         |
+| **Neural Network**             | A computational model inspired by the human brain, consisting of layers of interconnected nodes (neurons). | Like a network of pipes passing water (data) from one junction (neuron) to another, adjusting flow.       |
+| **Natural Language Processing (NLP)** | A field of AI focused on enabling machines to understand, interpret, and respond to human language. | Like teaching a foreigner to speak your language and understand emotions in tone and words.              |
+| **Computer Vision**            | Enables machines to interpret and make decisions based on visual data like images or videos.      | Like giving sight to a robot — now it can "see" and recognize faces, cars, or objects like a human does. |
+| **Generative AI**              | AI systems that can create new content, such as text, images, or music, based on learned patterns. | Like an artist who learns thousands of styles and then creates original artwork from imagination.         |
+| **Cloud AI**                   | AI services and tools provided through cloud platforms like AWS, Azure, and Red Hat OpenShift AI. | Like renting a powerful AI brain from the internet instead of building and maintaining your own.         |
+| **Hybrid Cloud**               | Combines on-premises infrastructure with cloud services for flexibility and scalability.          | Like keeping valuables at home while renting extra space elsewhere — best of both worlds.                |
+| **Inference**                  | Using a trained AI model to make predictions or decisions based on new data.                     | Like a doctor making a diagnosis based on past experience — the AI is applying what it has learned.      |
 
-### ✅ Prerequisites
-- RHEL 9+
-- Python 3.9+
-- CUDA drivers (if using GPU)
-- PyTorch
-- DeepSpeed
-
-### 📘 Tutorial
-```bash
-sudo dnf install python3-pip git
-pip3 install torch deepspeed transformers datasets
-
-# Clone an example model
-git clone https://github.com/huggingface/transformers
-cd transformers/examples/pytorch/language-modeling
-
-# Run training with DeepSpeed
-deepspeed run_clm.py \
-  --model_name_or_path gpt2 \
-  --dataset_name wikitext \
-  --dataset_config_name wikitext-2-raw-v1 \
-  --do_train \
-  --output_dir ./gpt2-finetuned \
-  --deepspeed ds_config.json
 
