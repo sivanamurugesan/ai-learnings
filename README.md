@@ -113,5 +113,76 @@ Designed to generate new data that mimics real data.
 
 ---
 
-Would you like a diagram or code example included in this Markdown too?
+
+# Data Types in AI Models
+
+AI models process and compute data in different **data types**, which can be categorized into:
+
+1. **Semantic Data Types** – Types of data AI models work with (e.g., text, images).
+2. **Computational Data Types** – Numerical precision formats used internally.
+
+---
+
+## 1. Semantic Data Types (High-Level Input Types)
+
+These define the nature or kind of data used for training or inference.
+
+| Data Type       | Description                            | Examples                          |
+|------------------|----------------------------------------|-----------------------------------|
+| **Numerical**     | Quantitative data (discrete/continuous) | Age, price, temperature           |
+| **Categorical**   | Limited categories or labels            | Gender, country, color            |
+| **Text (NLP)**    | Natural language input                  | Sentences, chat logs, reviews     |
+| **Image**         | Visual data as pixel arrays             | Photos, X-rays, digits            |
+| **Audio**         | Sound waveforms or spectrograms         | Speech, music                     |
+| **Time Series**   | Sequential data indexed by time         | Stock prices, sensor data         |
+| **Tabular**       | Structured rows/columns                 | CSV files, databases              |
+| **Graph**         | Node-edge data structure                | Social networks, knowledge graphs |
+
+---
+
+## 2. Computational Data Types (Numeric Precision)
+
+These define how the data is represented and computed within models, especially deep learning frameworks.
+
+| Data Type      | Description                          | Use Cases                                       |
+|----------------|--------------------------------------|------------------------------------------------|
+| **int8 / uint8** | 8-bit integers                      | Quantized models for faster inference          |
+| **float16 (FP16)** | 16-bit floating point              | Efficient training/inference, memory savings   |
+| **bfloat16**    | Brain FP16 (used in TPUs)            | Better dynamic range than FP16                 |
+| **float32 (FP32)** | 32-bit float (standard)           | Default in many ML/DL models                   |
+| **float64 (FP64)** | 64-bit float                      | Scientific computing, rarely used in DL        |
+| **bool**        | Boolean type                         | Logical conditions, masking                    |
+
+---
+
+## 3. Data Types in DL Frameworks (PyTorch, TensorFlow)
+
+- Models operate on **tensors** (multi-dimensional arrays).
+- Tensor data types include:
+  - PyTorch: `torch.float32`, `torch.int8`, etc.
+  - TensorFlow: `tf.float16`, `tf.bool`, etc.
+- Precision affects:
+  - **Speed**
+  - **Memory usage**
+  - **Model accuracy**
+
+---
+
+## 4. Why Data Types Matter
+
+- **Model Performance**: Lower precision = faster and more memory-efficient.
+- **Accuracy vs Efficiency**: FP16 is faster, but might reduce accuracy.
+- **Hardware Support**: GPUs/TPUs optimize certain data types.
+- **Preprocessing**: Proper encoding (e.g., categorical labels) ensures model compatibility.
+
+---
+
+## Summary
+
+- **Semantic types** define what the data *is*.
+- **Computational types** define how the data is *processed*.
+- Correct use of data types leads to better **efficiency**, **accuracy**, and **scalability** of AI models.
+
+
+
 
