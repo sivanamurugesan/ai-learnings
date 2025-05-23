@@ -37,4 +37,28 @@ Developers are often forced to break their workflow to search the internet or as
 Instead, **Amazon Q Developer meets developers where they are most productive**, providing **real-time recommendations** as they write code or comments in their IDE.
 
 
+# Common Use Cases of Generative AI
+
+Generative AI is forecasted to increase the global gross domestic product (GDP) by **$7 trillion** over the next 10 years *(Goldman Sachs, 2023)*. Businesses across various sectors are rapidly adopting generative AI to enhance efficiency, creativity, and customer experiences.
+
+## Applications Across Business Functions
+Generative AI can be applied across multiple lines of business, including:
+- **Engineering** – Automated code generation, design optimization, and predictive maintenance.
+- **Marketing** – AI-generated advertisements, personalized content creation, and customer sentiment analysis.
+- **Customer Service** – AI-powered chatbots, automatic response generation, and multilingual support.
+- **Finance** – Fraud detection, risk assessment, and AI-driven investment strategies.
+- **Sales** – Intelligent lead generation, automated customer outreach, and data-driven sales forecasting.
+
+## Practical Use Cases
+Generative AI supports diverse applications, such as:
+- **Text Summarization** – AI-powered tools condense lengthy documents while preserving key insights.
+- **Image Generation** – AI models like DALL·E create original artwork, product designs, and branding visuals.
+- **Healthcare Innovations** – Companies like **3M Health Information Systems** and **Philips HealthSuite** leverage AI for medical imaging and diagnostics.
+- **Financial Services** – Organizations like **Banco Bilbao Vizcaya Argentaria, S.A. (BBVA SA)** are adopting AI for advanced analytics and risk management.
+
+Generative AI continues to transform industries, unlocking new opportunities and driving unprecedented innovation.
+
+
+
+
 
