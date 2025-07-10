@@ -436,5 +436,14 @@ Generative AI refers to models that can generate new content, such as text, imag
 - **Azure AI Studio**: Like a design studio for building and experimenting with AI-powered applications.
 
 
+
+### Audio Reference
+
+You can listen to the audio reference for this mindmap here:
+
+[NotebookLM Audio Reference](https://notebooklm.google.com/notebook/b0c6117b-8dbc-41c5-bc7c-f59f0708580e/audio)
+
+## Overview: AI Concepts Mindmap
+
 ![Mindmap](AI_mm.png)
 
