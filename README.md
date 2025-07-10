@@ -1,4 +1,6 @@
-# 🤖 AI Learning Repository <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/9e21a86f-42c3-489c-a80d-aebf4b708bbb" />
+# 🤖 AI Learning Repository 
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/9e21a86f-42c3-489c-a80d-aebf4b708bbb" />
 
 A comprehensive guide to **Artificial Intelligence** fundamentals, enterprise-grade use cases, and hands-on tutorials with **Red Hat Enterprise Linux AI**, **AWS AI Services**, and **Azure AI Services**.
 
