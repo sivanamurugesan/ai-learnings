@@ -241,6 +241,20 @@ This audio resource provides an in-depth discussion of all the concepts covered 
 
 ---
 
+## 🧠 Mind Map: AI Topics
+
+Dive into the structured landscape of AI with our mind mapping icon!
+
+![AI Mind Map](AI_mm.png)
+
+📥 **Download Instructions:**
+
+1. Click on the image above or [right-click here](AI_mm.png) to open it in a new tab.
+2. Right-click the image and select **"Save image as..."** to download it.
+3. Use it as a reference or embed it in your own AI projects!
+
+> This icon represents key themes in AI explored in this repository—from neural networks to model optimization.
+
 ## 🤝 Contributing
 
 We welcome contributions to improve this learning resource! Please feel free to:
