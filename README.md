@@ -1,4 +1,4 @@
-# 🤖 AI Learning Repository
+# 🤖 AI Learning Repository <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/9e21a86f-42c3-489c-a80d-aebf4b708bbb" />
 
 A comprehensive guide to **Artificial Intelligence** fundamentals, enterprise-grade use cases, and hands-on tutorials with **Red Hat Enterprise Linux AI**, **AWS AI Services**, and **Azure AI Services**.
 
@@ -16,6 +16,7 @@ This repository provides structured learning modules covering AI fundamentals, p
 - [🚀 Enterprise Use Cases](#-enterprise-use-cases)
 - [🎧 Audio Resources](#-audio-resources)
 
+  
 ---
 
 ## 🔧 AI Fundamentals
@@ -245,12 +246,6 @@ We welcome contributions to improve this learning resource! Please feel free to:
 - Create pull requests for improvements
 - Share your own AI learning experiences
 - Suggest additional use cases or examples
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
